@@ -1,8 +1,14 @@
 aid: ineffable
 name: Ineffable
-description: 'Ineffable is a company surfaced as a portfolio company of bond-capital, index-ventures and
-  added to the API Evangelist network as a stub for enrichment. Sector: ai. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: >-
+  Ineffable Intelligence is an AI research lab founded by David Silver aiming to make "first contact
+  with superintelligence." The company is building a "superlearner" that discovers knowledge from its
+  own experience using reinforcement learning, without relying on human data, with the goal of
+  rediscovering and transcending human inventions such as language, science, mathematics and technology.
+  Backed by Bond Capital and Index Ventures, Ineffable is an early-stage research lab: at this time it
+  publishes a mission/beliefs site, a founder blog note, and open roles, but no public API, developer
+  portal, SDKs, or machine-readable specifications. This profile captures the company's public identity
+  and domain-security posture for the API Evangelist network.
 url: https://raw.githubusercontent.com/api-evangelist/ineffable/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +17,29 @@ x-backed-by:
 - index-ventures
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/69e5c03a4a2df5e47ab6195b/69f090e5abd8b983144c2375_asset-website-favicon.png
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-19'
 tags:
 - Company
-- Ai
+- Artificial Intelligence
+- Reinforcement Learning
+- Superintelligence
+- AI Research
+- Machine Learning
+- AI Lab
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -24,5 +47,24 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/ineffable-domain-security.yml
 - type: Website
   url: https://ineffable.ai
+- type: Blog
+  url: https://www.ineffable.ai/
+- type: TermsOfService
+  url: https://www.ineffable.ai/terms-and-conditions
+- type: PrivacyPolicy
+  url: https://www.ineffable.ai/privacy-policy
+- type: Careers
+  url: https://jobs.ashbyhq.com/ineffable
+- type: LinkedIn
+  url: https://www.linkedin.com/company/ineffable-intelligence/
+- type: Twitter
+  url: https://x.com/IneffableLabs
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
