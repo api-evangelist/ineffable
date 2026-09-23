@@ -1,0 +1,27 @@
+# Front Door AI Index — ineffable — 2026-09-17
+# AI vocabulary counted on the provider's root page. Generated; do not edit.
+# `score` is null unless ownership is `own` — see front_door_ai.py.
+front_door_ai:
+  slug: ineffable
+  lexicon_version: '1.0'
+  probed_at: '2026-09-17'
+  host: ineffable.ai
+  final_host: www.ineffable.ai
+  ownership: own
+  owner: ineffable
+  shares_host_with:
+  - ineffable-intelligence
+  inherited_from: null
+  verdict: scored
+  score: 3
+  host_score: 3
+  density: 6.58
+  words: 456
+  tiers:
+    agentic: 0
+    core: 3
+    model: 0
+  ambiguous: 6
+  top_terms:
+    intelligence: 6
+    AI: 3
